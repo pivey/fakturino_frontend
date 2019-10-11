@@ -1,13 +1,9 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: transparent;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,5 +14,23 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #ff8800;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+button:focus {
+  outline: none;
+}
+
+.welcomeBtn:focus {
+  border: 2px solid #ff8800;
 }
