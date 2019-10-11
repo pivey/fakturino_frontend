@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components'; 
 import img1 from './assets/fakturinoimg_1.jpg'
@@ -42,6 +41,7 @@ const MessageHolder = styled.div`
   padding:1rem;
   visibility:${props => props.showMe};
 `;
+
 
 function App() {
   const [divContent, setDivContent] = useState(''); 
